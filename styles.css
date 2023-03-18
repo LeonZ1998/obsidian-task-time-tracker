@@ -1,8 +1,84 @@
-/*
+.task-time-tracker-support {
+    max-width: 50%;
+    width: 400px;
+    height: auto;
+}
 
-This CSS file will be included with your plugin, and
-available in the app when your plugin is enabled.
+.task-time-tracker-btn {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
-If your plugin does not need CSS, delete this file.
+.task-time-tracker-name-txt {
+    display: block;
+    width: 90%;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    text-align: center;
+}
 
-*/
+.task-time-tracker-start-txt 
+.task-time-tracker-end-txt {
+    display: flex;
+}
+
+.task-time-tracker-start-txt {
+    width: 25%;
+    text-align: center;
+    margin-left: 25%;
+}
+
+.task-time-tracker-end-txt {
+    width: 25%;
+    text-align: center;
+    margin-right: 25%;
+}
+
+
+.task-time-tracker-btn svg {
+    width: 32px;
+    height: 32px;
+}
+
+.task-time-tracker-bottom button {
+    margin: 10px 5px 10px 5px;
+}
+
+.task-time-tracker-timers,
+.task-time-tracker-bottom {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.task-time-tracker-timers span {
+    display: block;
+}
+
+.task-time-tracker-timer {
+    margin: 20px;
+}
+
+.task-time-tracker-timer-time {
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.task-time-tracker-table {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.task-time-tracker-table td,
+.task-time-tracker-table th {
+    border: none;
+}
+
+.task-time-tracker-table .clickable-icon {
+    display: inline;
+}
